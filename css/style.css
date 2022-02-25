@@ -1,0 +1,161 @@
+*{  
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+header {
+    padding: 10px;
+    box-shadow: 1px 4px 9px 2px #22201f1c;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{width: 100%}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #081F50;
+    font-size: 18px;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #008AFF;
+}
+
+
+/*amplify*/
+.amplify{
+    text-align: center;
+    padding: 80px 0;
+}
+.container1 {
+    width: 750px;
+    margin: auto;
+}
+.amplify h1 {
+    color: :black;
+    font-size: 32px;
+    font-weight: 800;
+    color: #081F50;
+    line-height: 39px;
+    letter-spacing: 1px;
+}
+.amplify h1 span{
+    color:#008AFF!important ;
+}
+.amplify p {
+    padding: 15px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.amplify img{
+    width: 100%;
+}
+.projects{}
+.new{}
+.new .dd{
+    flex-basis: 50%;
+    text-align: end;
+    max-width: 50%;
+    justify-content: flex-end;
+    padding: 10px;
+    }
+.new .pp{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 10px;
+    }
+.projects span {
+    font-size: 32px;
+    font-weight: 700;
+    color: #F15767;
+}
+ .projects p{
+    letter-spacing: 0px;
+    word-spacing: 7px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.pp h2 {
+    font-size: 32px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+
+/*service/*/
+.service{
+    padding: 100px 0;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pad{ 
+flex-basis: 33.33%; 
+max-width: 33.33%;
+padding: 10px;
+}
+.col {
+    text-align: center;
+    padding: 46px;
+    background-color: ash;
+    box-shadow: 0px 14px 15px 1px #22201e1a;
+}
+.col img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.col h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.col p{
+    font-size: 18px;
+}
+.back1{
+    background-color: #FDEBED;
+}
+.back2{
+    background-color: #EBF9F4;
+}
+.back3{
+    background-color: #FFF7E8;
+}
+
+
+/*footer*/
+footer{background-color: #008AFF;text-align: center;padding: 38px;}
+footer p{color: white;font-weight: 200;}
+footer span{
+
+text-transform: uppercase;
+
+font-weight: 900;
+
+letter-spacing: 3px;
+}
